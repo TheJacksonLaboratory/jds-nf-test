@@ -1,0 +1,2 @@
+sampleID,lane,fastq_1,fastq_2
+mm10_WGS,lane1,https://raw.githubusercontent.com/MikeWLloyd/nf-test-test/wgs/mouse/mm10_WGS_sample_R1.fastq.gz,https://raw.githubusercontent.com/MikeWLloyd/nf-test-test/wgs/mouse/mm10_WGS_sample_R2.fastq.gz
