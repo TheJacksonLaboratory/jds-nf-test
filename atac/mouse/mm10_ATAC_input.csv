@@ -1,2 +1,2 @@
 sampleID,lane,fastq_1,fastq_2
-mm10_ATAC,lane1,https://raw.githubusercontent.com/MikeWLloyd/nf-test-test/main/atac/mouse/mm10_ATAC_sample_R1.fastq.gz,https://raw.githubusercontent.com/MikeWLloyd/nf-test-test/main/atac/mouse/mm10_ATAC_sample_R2.fastq.gz
+mm10_ATAC,lane1,https://github.com/TheJacksonLaboratory/cs-nf-test/main/atac/mouse/mm10_ATAC_sample_R1.fastq.gz,https://github.com/TheJacksonLaboratory/cs-nf-test/main/atac/mouse/mm10_ATAC_sample_R2.fastq.gz

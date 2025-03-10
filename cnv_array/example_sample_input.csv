@@ -1,4 +1,4 @@
 sampleID,gender,idat_red,idat_green
-Test_Sample_XY,XY,https://raw.githubusercontent.com/MikeWLloyd/nf-test-test/main/cnv_array/GSM7177504_205848650018R01C01_Red.idat,https://raw.githubusercontent.com/MikeWLloyd/nf-test-test/main/cnv_array/GSM7177504_205848650018R01C01_Grn.idat
-Test_Sample_XX,XX,https://raw.githubusercontent.com/MikeWLloyd/nf-test-test/main/cnv_array/GSM7177504_205848650018R01C01_Red.idat,https://raw.githubusercontent.com/MikeWLloyd/nf-test-test/main/cnv_array/GSM7177504_205848650018R01C01_Grn.idat
-Test_Sample_NA,,https://raw.githubusercontent.com/MikeWLloyd/nf-test-test/main/cnv_array/GSM7177504_205848650018R01C01_Red.idat,https://raw.githubusercontent.com/MikeWLloyd/nf-test-test/main/cnv_array/GSM7177504_205848650018R01C01_Grn.idat
+Test_Sample_XY,XY,https://github.com/TheJacksonLaboratory/cs-nf-test/main/cnv_array/GSM7177504_205848650018R01C01_Red.idat,https://github.com/TheJacksonLaboratory/cs-nf-test/main/cnv_array/GSM7177504_205848650018R01C01_Grn.idat
+Test_Sample_XX,XX,https://github.com/TheJacksonLaboratory/cs-nf-test/main/cnv_array/GSM7177504_205848650018R01C01_Red.idat,https://github.com/TheJacksonLaboratory/cs-nf-test/main/cnv_array/GSM7177504_205848650018R01C01_Grn.idat
+Test_Sample_NA,,https://github.com/TheJacksonLaboratory/cs-nf-test/main/cnv_array/GSM7177504_205848650018R01C01_Red.idat,https://github.com/TheJacksonLaboratory/cs-nf-test/main/cnv_array/GSM7177504_205848650018R01C01_Grn.idat
