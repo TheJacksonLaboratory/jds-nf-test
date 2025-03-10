@@ -1,11 +1,9 @@
-# Test Data
+# cs-nf-test  
 
-This directory contains 10,000 simulated RNA, whole exome, whole genome, and ATAC-seq paired end reads based on GRCm38 (mm10) and GRCh38 (hg38).  
+Repository for hosting test data for cs-nf-pipelines
 
-These files can be used in testing pipeline functionality. 
+## Data Sources
 
-Sample chip-seq data from NF-core are provided. These data can be staged by the workflow from the provided URLs. 
+This repository contains simulated and subset data for various data types to be used in conjunction with the [`nf-test`](https://www.nf-test.com/) framework as part of the [`cs-nf-pipelines`](https://github.com/TheJacksonLaboratory/cs-nf-pipelines) Nextflow pipelines.  
 
-A sample CSV datasheet are provided for PTA. 
-
-A sample WES datasheet for both remote and local files is provided for testing download and/or local samplesheet input to workflows.
+Data are for testing purposes only, and are provided under MIT licensing as such.  
