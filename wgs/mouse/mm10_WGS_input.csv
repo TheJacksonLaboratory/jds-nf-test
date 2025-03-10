@@ -1,2 +1,2 @@
 sampleID,lane,fastq_1,fastq_2
-mm10_WGS,lane1,https://github.com/TheJacksonLaboratory/cs-nf-test/main/wgs/mouse/mm10_WGS_sample_R1.fastq.gz,https://github.com/TheJacksonLaboratory/cs-nf-test/main/wgs/mouse/mm10_WGS_sample_R2.fastq.gz
+mm10_WGS,lane1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/mouse/mm10_WGS_sample_R1.fastq.gz,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/mouse/mm10_WGS_sample_R2.fastq.gz
