@@ -1,0 +1,4 @@
+patient,sex,status,sampleID,lane,fastq_1,fastq_2
+fizzbangboom,XX,0,n_fizz,test_L1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wes/somatic_wes/FPN_sample_R1.fastq.gz,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wes/somatic_wes/FPN_sample_R2.fastq.gz
+fizzbangboom,XX,1,t_bang,test_L1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wes/somatic_wes/FPT_sample_R1.fastq.gz,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wes/somatic_wes/FPT_sample_R2.fastq.gz
+fizzbangboom,XX,1,t_boom,test_L1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wes/somatic_wes/FPT_sample_R1.fastq.gz,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wes/somatic_wes/FPT_sample_R2.fastq.gz
