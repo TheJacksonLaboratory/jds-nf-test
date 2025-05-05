@@ -1,0 +1,4 @@
+sampleID,outputID,gcvf
+example_42,merged_1701,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/gvcf/example_42.gvcf.gz
+example_101,merged_1701,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/gvcf/example_101.gvcf.gz
+example_10191,merged_1701,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/gvcf/example_10191.gvcf.gz
