@@ -1,0 +1,2 @@
+sampleID,lane,fastq_1
+mm10_WGS,lane1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/pacbio/mouse/clr/sample42_mouse_400_clr_reads.fastq.gz
