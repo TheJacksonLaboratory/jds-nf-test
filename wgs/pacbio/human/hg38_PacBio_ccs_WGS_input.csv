@@ -1,2 +1,2 @@
-sampleID,lane,fastq_1
-hg38_WGS,lane1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/pacbio/human/ccs/sample42_GRCh38_400_ccs_reads.fq.gz
+sampleID,sex,fastq_1
+hg38_WGS,NA,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/pacbio/human/ccs/sample42_GRCh38_400_ccs_reads.fq.gz

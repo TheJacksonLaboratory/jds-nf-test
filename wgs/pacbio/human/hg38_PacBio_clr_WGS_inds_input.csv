@@ -1,3 +1,3 @@
-ind,sampleID,lane,fastq_1
-Mouse_10191,sample_42,lane1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/pacbio/human/clr/sample42_GRCh38_400_clr_reads.fq.gz
-Mouse_10191,sample_101,lane1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/pacbio/human/clr/sample101_GRCh38_400_clr_reads.fq.gz
+ind,sampleID,sex,fastq_1
+Mouse_10191,sample_42,NA,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/pacbio/human/clr/sample42_GRCh38_400_clr_reads.fq.gz
+Mouse_10191,sample_101,NA,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/pacbio/human/clr/sample101_GRCh38_400_clr_reads.fq.gz
