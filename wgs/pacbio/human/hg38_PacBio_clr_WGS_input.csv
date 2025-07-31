@@ -1,2 +1,2 @@
 sampleID,sex,fastq_1
-hg38_WGS,NA,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/pacbio/human/clr/sample42_GRCh38_400_keyRegions_reads.fq.gz
+hg38_WGS,NA,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/pacbio/human/clr/sample42_GRCh38_400_keyRegions_clr_reads.fq.gz
