@@ -1,0 +1,2 @@
+sampleID,lane,fastq_1
+hg38_RNA,lane1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/rna/human/hg38_RNA_sample_R1.fastq.gz

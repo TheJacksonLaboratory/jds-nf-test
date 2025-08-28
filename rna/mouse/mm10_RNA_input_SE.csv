@@ -1,0 +1,2 @@
+sampleID,lane,fastq_1
+mm10_RNA,lane1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/rna/mouse/mm10_RNA_sample_R1.fastq.gz
