@@ -1,0 +1,2 @@
+sampleID,bam,bai
+Sample_42,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/wgs/sv/human/Sample_42_realigned_BQSR.bam,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/wgs/sv/human/Sample_42_realigned_BQSR.bam.bai
