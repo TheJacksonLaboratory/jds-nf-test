@@ -1,4 +1,4 @@
 sampleID,outputID,gvcf
-example_42,merged_1701,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/gvcf/unzip/example_42.gvcf
-example_101,merged_1701,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/gvcf/unzip/example_101.gvcf
-example_10191,merged_1701,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/gvcf/unzip/example_10191.gvcf
+example_42,merged_1701,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/wgs/gvcf/unzip/example_42.gvcf
+example_101,merged_1701,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/wgs/gvcf/unzip/example_101.gvcf
+example_10191,merged_1701,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/wgs/gvcf/unzip/example_10191.gvcf

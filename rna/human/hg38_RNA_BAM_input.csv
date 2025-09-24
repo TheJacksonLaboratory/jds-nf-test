@@ -1,2 +1,2 @@
 sampleID,bam
-hg38_RNA,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/rna/human/hg38_RNA.transcript.bam
+hg38_RNA,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/rna/human/hg38_RNA.transcript.bam

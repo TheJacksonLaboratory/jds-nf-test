@@ -1,7 +1,7 @@
 group,replicate,fastq_1,fastq_2,antibody,control
-adult_untreated,1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/chipseq/mouse/adult_untreated_subset.fastq.gz,,p65,adult_untreated_input
-aged_control_IgGTreated,1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/chipseq/mouse/aged_control_IgGTreated_subset.fastq.gz,,p65,aged_control_IgGTreated_input
-aged_anti-IL17A_F_treated,1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/chipseq/mouse/aged_anti-IL17A_F_treated_subset.fastq.gz,,p65,aged_anti-IL17A_F_treated_input
-adult_untreated_input,1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/chipseq/mouse/adult_untreated_input_subset.fastq.gz,,,
-aged_control_IgGTreated_input,1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/chipseq/mouse/aged_control_IgGTreated_input_subset.fastq.gz,,,
-aged_anti-IL17A_F_treated_input,1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/chipseq/mouse/aged_anti-IL17A_F_treated_input_subset.fastq.gz,,,
+adult_untreated,1,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/chipseq/mouse/adult_untreated_subset.fastq.gz,,p65,adult_untreated_input
+aged_control_IgGTreated,1,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/chipseq/mouse/aged_control_IgGTreated_subset.fastq.gz,,p65,aged_control_IgGTreated_input
+aged_anti-IL17A_F_treated,1,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/chipseq/mouse/aged_anti-IL17A_F_treated_subset.fastq.gz,,p65,aged_anti-IL17A_F_treated_input
+adult_untreated_input,1,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/chipseq/mouse/adult_untreated_input_subset.fastq.gz,,,
+aged_control_IgGTreated_input,1,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/chipseq/mouse/aged_control_IgGTreated_input_subset.fastq.gz,,,
+aged_anti-IL17A_F_treated_input,1,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/chipseq/mouse/aged_anti-IL17A_F_treated_input_subset.fastq.gz,,,

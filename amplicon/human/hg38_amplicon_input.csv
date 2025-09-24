@@ -1,2 +1,2 @@
 sampleID,lane,fastq_1,fastq_2
-hg38_amplicon,lane1,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/amplicon/human/xGen_ampliconTestData_R1_001.fastq.gz,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/amplicon/human/xGen_ampliconTestData_R2_001.fastq.gz
+hg38_amplicon,lane1,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/amplicon/human/xGen_ampliconTestData_R1_001.fastq.gz,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/amplicon/human/xGen_ampliconTestData_R2_001.fastq.gz

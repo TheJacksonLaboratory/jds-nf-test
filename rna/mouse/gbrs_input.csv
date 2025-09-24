@@ -1,3 +1,3 @@
 sampleID,sex,generation,fastq_1,fastq_2
-test_1_RNA,M,10,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/rna/mouse/mm10_RNA_sample_R1.fastq.gz,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/rna/mouse/mm10_RNA_sample_R2.fastq.gz
-test_2_RNA,F,10,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/rna/mouse/mm10_RNA_sample_R1.fastq.gz,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/rna/mouse/mm10_RNA_sample_R2.fastq.gz
+test_1_RNA,M,10,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/rna/mouse/mm10_RNA_sample_R1.fastq.gz,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/rna/mouse/mm10_RNA_sample_R2.fastq.gz
+test_2_RNA,F,10,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/rna/mouse/mm10_RNA_sample_R1.fastq.gz,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/rna/mouse/mm10_RNA_sample_R2.fastq.gz

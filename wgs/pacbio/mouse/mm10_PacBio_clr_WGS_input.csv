@@ -1,2 +1,2 @@
 sampleID,sex,fastq_1
-mm10_WGS,NA,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/wgs/pacbio/mouse/clr/sample42_mouse_400_keyRegions_clr_reads.fq.gz
+mm10_WGS,NA,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/wgs/pacbio/mouse/clr/sample42_mouse_400_keyRegions_clr_reads.fq.gz

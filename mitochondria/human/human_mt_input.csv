@@ -1,2 +1,2 @@
 sampleID,bam,bai
-sample_42,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/mitochondria/human/human_chrM.bam,https://raw.githubusercontent.com/TheJacksonLaboratory/cs-nf-test/main/mitochondria/human/human_chrM.bam.bai
+sample_42,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/mitochondria/human/human_chrM.bam,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/mitochondria/human/human_chrM.bam.bai
