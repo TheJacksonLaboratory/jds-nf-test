@@ -1,0 +1,3 @@
+sample,fastq_1
+13338,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/smrnaseq/mouse/13338_GT23-13809-miRNA_AGTCAA_S168_L008_R1_001.fastq.gz
+13340,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/smrnaseq/mouse/13340_GT23-13810-miRNA_GTCCGC_S180_L008_R1_001.fastq.gz

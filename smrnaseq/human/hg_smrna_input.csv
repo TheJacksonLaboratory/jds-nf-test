@@ -1,0 +1,3 @@
+sample,fastq_1
+c5,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/smrnaseq/human/SRR5398647_GSM2561000_clinic5_Homo_sapiens_ncRNA-Seq.fastq.gz
+pc5,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/smrnaseq/human/SRR5398633_GSM2560986_preclinic5_Homo_sapiens_ncRNA-Seq.fastq.gz
