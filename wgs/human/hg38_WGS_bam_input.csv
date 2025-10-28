@@ -1,0 +1,2 @@
+sampleID,bam,bai
+hg38_WGS_bam,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/wgs/human/hg38_WGS_realigned_BQSR.bam,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/wgs/human/hg38_WGS_realigned_BQSR.bai
