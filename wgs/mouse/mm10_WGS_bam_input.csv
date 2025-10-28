@@ -1,0 +1,2 @@
+sampleID,bam,bai,sex
+mm10_WGS_bam,/projects/compsci/vmp/USERS/widmas/jds-nf-test/wgs/mouse/mm10_WGS_dedup.bam,/projects/compsci/vmp/USERS/widmas/jds-nf-test/wgs/mouse/mm10_WGS_dedup.bai,M
