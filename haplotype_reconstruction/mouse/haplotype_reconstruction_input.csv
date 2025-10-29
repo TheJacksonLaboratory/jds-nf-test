@@ -1,0 +1,3 @@
+finalreport_file,project_id,covar_file,cross_type
+https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/haplotype_reconstruction/mouse/test1_FinalReport.zip,mm10_DO,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/haplotype_reconstruction/mouse/test_covar.csv,do
+https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/haplotype_reconstruction/mouse/test2_FinalReport.zip,mm10_DO,https://raw.githubusercontent.com/TheJacksonLaboratory/jds-nf-test/main/haplotype_reconstruction/mouse/test_covar.csv,do
