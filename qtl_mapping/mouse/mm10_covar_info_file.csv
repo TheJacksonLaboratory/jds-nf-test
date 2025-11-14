@@ -1,0 +1,7 @@
+phenotype,transformation,covar_field,interactive
+phe1,log,sex,TRUE
+phe2,log,gen,FALSE
+phe2,exp,sex,TRUE
+phe1,exp,gen,FALSE
+phe2,NA,sex,FALSE
+phe2,NA,gen,FALSE

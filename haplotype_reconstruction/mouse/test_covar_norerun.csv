@@ -1,0 +1,3 @@
+id,sex,gen,include,correct_id
+DO146,F,18,TRUE,DO146_corrected
+DO557,F,22,TRUE,DO557_corrected
