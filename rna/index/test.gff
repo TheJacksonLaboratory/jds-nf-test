@@ -1,0 +1,9 @@
+##gff-version 3
+#!genome-build GRCm39
+#!genome-version GRCm39
+#!genome-date 2020-06
+#!genome-build-accession GCA_000001635.9
+#!genebuild-last-updated 2021-08
+1	havana	gene	100	200	.	+	.	ID=ENSMUSG00000000042;gene_biotype=Protein coding;gene_id=ENSMUSG00000000042;gene_name=TestIt;gene_source=havana;gene_version=2
+1	havana	transcript	100	200	.	+	.	ID=ENSMUST00000193198;Parent=ENSMUSG00000000042;gene_biotype=Protein coding;gene_id=ENSMUSG00000000042;gene_name=TestIt;gene_source=havana;gene_version=2;tag=basic;transcript_biotype=TEC;transcript_id=ENSMUST00000193198;transcript_name=TestIt-101;transcript_source=havana;transcript_support_level=NA (assigned to previous version 1);transcript_version=2
+1	havana	exon	100	200	.	+	.	ID=ENSMUSE00000000001;Parent=ENSMUST00000193198;exon_id=ENSMUSE00000000001;exon_number=1;exon_version=2;gene_biotype=Protein coding;gene_id=ENSMUSG00000000042;gene_name=TestIt;gene_source=havana;gene_version=2;tag=basic;transcript_biotype=TEC;transcript_id=ENSMUST00000193198;transcript_name=TestIt-101;transcript_source=havana;transcript_support_level=NA (assigned to previous version 1);transcript_version=2
