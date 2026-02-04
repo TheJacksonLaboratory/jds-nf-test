@@ -1,0 +1,1090 @@
+#:GATKReport.v1.1:5
+#:GATKTable:2:17:%s:%s:;
+#:GATKTable:Arguments:Recalibration argument collection values used in this run
+Argument                    Value                                                                   
+binary_tag_name             null                                                                    
+covariate                   ReadGroupCovariate,QualityScoreCovariate,ContextCovariate,CycleCovariate
+default_platform            null                                                                    
+deletions_default_quality   45                                                                      
+force_platform              null                                                                    
+indels_context_size         3                                                                       
+insertions_default_quality  45                                                                      
+low_quality_tail            2                                                                       
+maximum_cycle_value         500                                                                     
+mismatches_context_size     2                                                                       
+mismatches_default_quality  -1                                                                      
+no_standard_covs            false                                                                   
+quantizing_levels           16                                                                      
+recalibration_report        null                                                                    
+run_without_dbsnp           false                                                                   
+solid_nocall_strategy       THROW_EXCEPTION                                                         
+solid_recal_mode            SET_Q_ZERO                                                              
+
+#:GATKTable:3:94:%d:%d:%d:;
+#:GATKTable:Quantized:Quality quantization map
+QualityScore  Count       QuantizedScore
+           0           0              93
+           1           0              93
+           2           0              93
+           3           0              93
+           4           0              93
+           5           0              93
+           6           0              93
+           7           0              93
+           8           0              93
+           9           0              93
+          10           0              93
+          11           0              93
+          12    66844326              12
+          13           0              93
+          14           0              93
+          15           0              93
+          16           0              93
+          17           0              93
+          18           0              93
+          19           0              93
+          20           0              93
+          21           0              93
+          22           0              93
+          23           0              93
+          24           0              93
+          25           0              93
+          26           0              93
+          27           0              93
+          28   153942508              28
+          29           0              93
+          30           0              93
+          31           0              93
+          32           0              93
+          33           0              93
+          34           0              93
+          35           0              93
+          36           0              93
+          37           0              93
+          38  3782806982              38
+          39           0              93
+          40           0              93
+          41           0              93
+          42           0              93
+          43           0              93
+          44           0              93
+          45           0              93
+          46           0              93
+          47           0              93
+          48           0              93
+          49           0              93
+          50           0              93
+          51           0              93
+          52           0              93
+          53           0              93
+          54           0              93
+          55           0              93
+          56           0              93
+          57           0              93
+          58           0              93
+          59           0              93
+          60           0              93
+          61           0              93
+          62           0              93
+          63           0              93
+          64           0              93
+          65           0              93
+          66           0              93
+          67           0              93
+          68           0              93
+          69           0              93
+          70           0              93
+          71           0              93
+          72           0              93
+          73           0              93
+          74           0              93
+          75           0              93
+          76           0              93
+          77           0              93
+          78           0              93
+          79           0              93
+          80           0              93
+          81           0              93
+          82           0              93
+          83           0              93
+          84           0              93
+          85           0              85
+          86           0              86
+          87           0              87
+          88           0              88
+          89           0              89
+          90           0              90
+          91           0              91
+          92           0              92
+          93           0              93
+
+#:GATKTable:6:1:%s:%s:%.4f:%.4f:%d:%.2f:;
+#:GATKTable:RecalTable0:
+ReadGroup                                 EventType  EmpiricalQuality  EstimatedQReported  Observations  Errors    
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA  M                   29.0000             27.8613    4003593816  5560779.00
+
+#:GATKTable:6:3:%s:%d:%s:%.4f:%d:%.2f:;
+#:GATKTable:RecalTable1:
+ReadGroup                                 QualityScore  EventType  EmpiricalQuality  Observations  Errors    
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  M                   12.0000      66844326  4722183.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  M                   28.0000     153942508   232958.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  M                   38.0000    3782806982   605638.00
+
+#:GATKTable:8:954:%s:%d:%s:%s:%s:%.4f:%d:%.2f:;
+#:GATKTable:RecalTable2:
+ReadGroup                                 QualityScore  CovariateValue  CovariateName  EventType  EmpiricalQuality  Observations  Errors   
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -1              Cycle          M                   12.0000        137708    8810.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -10             Cycle          M                   13.0000        124653    6318.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -100            Cycle          M                   11.0000        331407   27159.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -101            Cycle          M                   11.0000        310078   24708.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -102            Cycle          M                   11.0000        273005   21039.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -103            Cycle          M                   11.0000        285249   22179.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -104            Cycle          M                   11.0000        300850   23587.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -105            Cycle          M                   11.0000        300923   23521.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -106            Cycle          M                   11.0000        300535   23095.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -107            Cycle          M                   11.0000        349182   28716.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -108            Cycle          M                   11.0000        335580   27152.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -109            Cycle          M                   11.0000        289420   22246.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -11             Cycle          M                   13.0000        118008    6018.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -110            Cycle          M                   11.0000        306946   24218.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -111            Cycle          M                   11.0000        325413   26077.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -112            Cycle          M                   11.0000        323546   25708.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -113            Cycle          M                   11.0000        328227   26042.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -114            Cycle          M                   11.0000        335154   26742.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -115            Cycle          M                   11.0000        325838   25755.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -116            Cycle          M                   11.0000        334314   26668.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -117            Cycle          M                   11.0000        368497   30230.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -118            Cycle          M                   11.0000        370386   30950.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -119            Cycle          M                   11.0000        365993   29719.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -12             Cycle          M                   13.0000        112133    5870.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -120            Cycle          M                   11.0000        378598   32033.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -121            Cycle          M                   11.0000        378324   31067.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -122            Cycle          M                   11.0000        380714   31242.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -123            Cycle          M                   11.0000        362291   29570.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -124            Cycle          M                   11.0000        361581   29455.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -125            Cycle          M                   11.0000        387763   32323.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -126            Cycle          M                   11.0000        409291   35070.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -127            Cycle          M                   11.0000        371435   30087.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -128            Cycle          M                   11.0000        378521   31574.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -129            Cycle          M                   11.0000        384635   32170.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -13             Cycle          M                   13.0000        108850    5658.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -130            Cycle          M                   11.0000        410065   35174.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -131            Cycle          M                   11.0000        401564   33152.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -132            Cycle          M                   11.0000        430374   36215.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -133            Cycle          M                   11.0000        416354   34606.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -134            Cycle          M                   11.0000        394534   31673.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -135            Cycle          M                   11.0000        432782   36726.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -136            Cycle          M                   11.0000        426420   35014.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -137            Cycle          M                   11.0000        411326   32634.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -138            Cycle          M                   11.0000        451257   37643.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -139            Cycle          M                   11.0000        484499   41863.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -14             Cycle          M                   13.0000        113207    5846.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -140            Cycle          M                   11.0000        467691   40302.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -141            Cycle          M                   10.0000        506513   46481.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -142            Cycle          M                   11.0000        488128   40838.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -143            Cycle          M                   11.0000        484934   40345.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -144            Cycle          M                   11.0000        489942   40300.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -145            Cycle          M                   11.0000        500951   43169.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -146            Cycle          M                   11.0000        493813   41450.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -147            Cycle          M                   11.0000        523709   41126.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -148            Cycle          M                   11.0000        507034   38853.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -149            Cycle          M                   11.0000        491880   37900.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -15             Cycle          M                   13.0000        115806    6159.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -150            Cycle          M                   11.0000        493626   38922.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -151            Cycle          M                   10.0000        634171   57215.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -16             Cycle          M                   13.0000        115278    6155.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -17             Cycle          M                   13.0000        123239    6578.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -18             Cycle          M                   13.0000        118116    6320.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -19             Cycle          M                   13.0000        123766    6624.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -2              Cycle          M                   14.0000        142276    5962.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -20             Cycle          M                   13.0000        135447    7300.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -21             Cycle          M                   13.0000        124967    6903.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -22             Cycle          M                   13.0000        129234    7103.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -23             Cycle          M                   12.0000        143691    8153.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -24             Cycle          M                   13.0000        127005    6997.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -25             Cycle          M                   12.0000        137905    7761.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -26             Cycle          M                   12.0000        133061    7489.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -27             Cycle          M                   12.0000        142011    8230.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -28             Cycle          M                   12.0000        139335    7906.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -29             Cycle          M                   12.0000        140730    8126.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -3              Cycle          M                   14.0000        121995    4708.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -30             Cycle          M                   12.0000        141576    8240.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -31             Cycle          M                   12.0000        151887    8878.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -32             Cycle          M                   12.0000        142909    8478.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -33             Cycle          M                   12.0000        146185    8844.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -34             Cycle          M                   12.0000        152851    9048.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -35             Cycle          M                   12.0000        142269    8550.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -36             Cycle          M                   12.0000        141380    8502.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -37             Cycle          M                   12.0000        148278    9211.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -38             Cycle          M                   12.0000        169624   10541.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -39             Cycle          M                   12.0000        157554    9931.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -4              Cycle          M                   14.0000        136963    5616.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -40             Cycle          M                   12.0000        153844    9470.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -41             Cycle          M                   12.0000        165716   10405.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -42             Cycle          M                   12.0000        165113   10383.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -43             Cycle          M                   12.0000        165690   10471.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -44             Cycle          M                   12.0000        183119   11784.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -45             Cycle          M                   12.0000        174611   11164.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -46             Cycle          M                   12.0000        172049   11084.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -47             Cycle          M                   12.0000        181800   11729.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -48             Cycle          M                   12.0000        170494   11126.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -49             Cycle          M                   12.0000        170612   11008.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -5              Cycle          M                   14.0000        128251    5351.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -50             Cycle          M                   12.0000        177745   11578.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -51             Cycle          M                   12.0000        178241   11487.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -52             Cycle          M                   12.0000        185034   12238.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -53             Cycle          M                   12.0000        182814   12107.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -54             Cycle          M                   12.0000        170989   11025.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -55             Cycle          M                   12.0000        176107   11515.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -56             Cycle          M                   12.0000        181091   12037.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -57             Cycle          M                   12.0000        199256   13430.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -58             Cycle          M                   12.0000        193124   13113.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -59             Cycle          M                   12.0000        192683   12995.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -6              Cycle          M                   13.0000        118751    6024.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -60             Cycle          M                   12.0000        192465   12928.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -61             Cycle          M                   12.0000        199986   13624.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -62             Cycle          M                   12.0000        197689   13507.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -63             Cycle          M                   12.0000        199742   13514.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -64             Cycle          M                   12.0000        204038   13954.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -65             Cycle          M                   12.0000        210240   14566.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -66             Cycle          M                   12.0000        210130   14428.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -67             Cycle          M                   12.0000        214671   15098.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -68             Cycle          M                   12.0000        223833   15869.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -69             Cycle          M                   12.0000        221406   15561.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -7              Cycle          M                   13.0000        114258    5621.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -70             Cycle          M                   11.0000        228976   16285.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -71             Cycle          M                   11.0000        243252   17510.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -72             Cycle          M                   11.0000        227631   16168.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -73             Cycle          M                   12.0000        228661   16199.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -74             Cycle          M                   11.0000        230960   16590.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -75             Cycle          M                   12.0000        224752   15900.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -76             Cycle          M                   11.0000        224043   16288.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -77             Cycle          M                   11.0000        230068   16606.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -78             Cycle          M                   11.0000        248673   18384.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -79             Cycle          M                   11.0000        259056   18880.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -8              Cycle          M                   13.0000        120007    5791.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -80             Cycle          M                   11.0000        240696   17754.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -81             Cycle          M                   11.0000        234099   17021.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -82             Cycle          M                   11.0000        232968   16881.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -83             Cycle          M                   11.0000        244438   18073.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -84             Cycle          M                   11.0000        241121   17813.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -85             Cycle          M                   11.0000        243832   18130.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -86             Cycle          M                   11.0000        250075   18599.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -87             Cycle          M                   11.0000        246940   18236.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -88             Cycle          M                   11.0000        270778   20454.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -89             Cycle          M                   11.0000        264447   19945.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -9              Cycle          M                   13.0000        120491    5703.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -90             Cycle          M                   11.0000        289387   22534.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -91             Cycle          M                   11.0000        282044   21656.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -92             Cycle          M                   11.0000        271384   20812.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -93             Cycle          M                   11.0000        287022   21835.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -94             Cycle          M                   11.0000        281792   21818.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -95             Cycle          M                   11.0000        282906   21715.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -96             Cycle          M                   11.0000        280988   21708.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -97             Cycle          M                   11.0000        265723   19746.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -98             Cycle          M                   11.0000        283200   21820.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  -99             Cycle          M                   11.0000        306056   24032.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  1               Cycle          M                   15.0000        102118    3367.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  10              Cycle          M                   16.0000         81709    2209.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  100             Cycle          M                   12.0000        204708   14269.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  101             Cycle          M                   12.0000        200731   14081.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  102             Cycle          M                   11.0000        212360   15497.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  103             Cycle          M                   11.0000        224303   16288.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  104             Cycle          M                   11.0000        220778   15775.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  105             Cycle          M                   11.0000        228210   16374.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  106             Cycle          M                   11.0000        226899   16590.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  107             Cycle          M                   12.0000        208153   14553.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  108             Cycle          M                   11.0000        219192   15913.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  109             Cycle          M                   11.0000        252569   18879.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  11              Cycle          M                   16.0000         83054    2198.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  110             Cycle          M                   11.0000        250657   18576.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  111             Cycle          M                   11.0000        242040   17894.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  112             Cycle          M                   11.0000        230035   16590.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  113             Cycle          M                   11.0000        236604   17079.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  114             Cycle          M                   11.0000        246925   18335.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  115             Cycle          M                   11.0000        261262   19717.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  116             Cycle          M                   11.0000        267499   20291.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  117             Cycle          M                   11.0000        266871   20111.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  118             Cycle          M                   11.0000        248418   18316.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  119             Cycle          M                   11.0000        264739   20233.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  12              Cycle          M                   16.0000         81519    2191.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  120             Cycle          M                   11.0000        258405   19393.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  121             Cycle          M                   11.0000        247616   18317.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  122             Cycle          M                   11.0000        256737   19020.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  123             Cycle          M                   11.0000        257356   19405.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  124             Cycle          M                   11.0000        273885   21053.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  125             Cycle          M                   11.0000        272596   20779.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  126             Cycle          M                   11.0000        271790   20548.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  127             Cycle          M                   11.0000        282496   21546.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  128             Cycle          M                   11.0000        267468   20109.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  129             Cycle          M                   11.0000        261580   19231.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  13              Cycle          M                   15.0000         87622    2434.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  130             Cycle          M                   11.0000        277842   20934.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  131             Cycle          M                   11.0000        272333   20423.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  132             Cycle          M                   11.0000        278424   20614.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  133             Cycle          M                   11.0000        285918   21249.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  134             Cycle          M                   11.0000        290552   21820.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  135             Cycle          M                   11.0000        278627   20775.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  136             Cycle          M                   11.0000        283492   21264.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  137             Cycle          M                   11.0000        280004   20358.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  138             Cycle          M                   11.0000        282193   20490.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  139             Cycle          M                   11.0000        307355   23039.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  14              Cycle          M                   16.0000         86105    2340.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  140             Cycle          M                   11.0000        299330   22469.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  141             Cycle          M                   11.0000        277414   19824.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  142             Cycle          M                   11.0000        311154   22293.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  143             Cycle          M                   11.0000        322106   23274.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  144             Cycle          M                   11.0000        316298   22523.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  145             Cycle          M                   11.0000        316609   22571.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  146             Cycle          M                   11.0000        310225   22135.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  147             Cycle          M                   12.0000        310788   19698.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  148             Cycle          M                   12.0000        329678   22132.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  149             Cycle          M                   12.0000        317624   20532.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  15              Cycle          M                   15.0000         88887    2496.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  150             Cycle          M                   12.0000        342561   23276.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  151             Cycle          M                   11.0000        450005   35092.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  16              Cycle          M                   16.0000         86546    2285.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  17              Cycle          M                   16.0000         88218    2369.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  18              Cycle          M                   15.0000         89852    2494.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  19              Cycle          M                   15.0000         89235    2491.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  2               Cycle          M                   15.0000         92310    3006.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  20              Cycle          M                   16.0000         90594    2465.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  21              Cycle          M                   15.0000         89030    2520.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  22              Cycle          M                   15.0000         93049    2698.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  23              Cycle          M                   15.0000         93419    2751.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  24              Cycle          M                   15.0000         97594    2946.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  25              Cycle          M                   15.0000         96445    2994.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  26              Cycle          M                   13.0000        107359    5058.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  27              Cycle          M                   13.0000        108198    5101.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  28              Cycle          M                   13.0000        108940    5049.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  29              Cycle          M                   13.0000        111476    5387.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  3               Cycle          M                   15.0000         86479    2861.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  30              Cycle          M                   13.0000        115538    5648.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  31              Cycle          M                   13.0000        112084    5407.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  32              Cycle          M                   13.0000        118169    5940.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  33              Cycle          M                   13.0000        117568    5894.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  34              Cycle          M                   13.0000        114764    5691.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  35              Cycle          M                   13.0000        116068    5817.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  36              Cycle          M                   13.0000        119843    6164.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  37              Cycle          M                   13.0000        121642    6374.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  38              Cycle          M                   13.0000        122328    6373.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  39              Cycle          M                   13.0000        125351    6672.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  4               Cycle          M                   14.0000         86774    3057.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  40              Cycle          M                   13.0000        124936    6672.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  41              Cycle          M                   13.0000        127774    6928.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  42              Cycle          M                   13.0000        126322    6757.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  43              Cycle          M                   13.0000        124631    6854.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  44              Cycle          M                   13.0000        126148    6737.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  45              Cycle          M                   13.0000        127507    6985.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  46              Cycle          M                   12.0000        129181    7296.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  47              Cycle          M                   12.0000        133069    7480.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  48              Cycle          M                   12.0000        136214    7795.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  49              Cycle          M                   12.0000        135598    7660.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  5               Cycle          M                   15.0000         79316    2258.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  50              Cycle          M                   12.0000        133049    7552.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  51              Cycle          M                   12.0000        134130    7746.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  52              Cycle          M                   12.0000        142151    8377.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  53              Cycle          M                   12.0000        143472    8753.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  54              Cycle          M                   12.0000        143576    8497.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  55              Cycle          M                   12.0000        149904    8777.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  56              Cycle          M                   12.0000        148175    8906.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  57              Cycle          M                   12.0000        156143    9385.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  58              Cycle          M                   12.0000        150127    8758.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  59              Cycle          M                   12.0000        150451    8971.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  6               Cycle          M                   15.0000         83106    2731.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  60              Cycle          M                   12.0000        145278    8627.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  61              Cycle          M                   12.0000        149240    8701.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  62              Cycle          M                   12.0000        156883    9504.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  63              Cycle          M                   12.0000        155021    9395.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  64              Cycle          M                   12.0000        157143    9641.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  65              Cycle          M                   12.0000        159875    9901.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  66              Cycle          M                   12.0000        161433    9875.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  67              Cycle          M                   12.0000        157534    9724.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  68              Cycle          M                   12.0000        157825    9703.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  69              Cycle          M                   12.0000        159088    9760.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  7               Cycle          M                   15.0000         83137    2560.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  70              Cycle          M                   12.0000        167682   10429.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  71              Cycle          M                   12.0000        163954   10310.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  72              Cycle          M                   12.0000        169016   10884.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  73              Cycle          M                   12.0000        167285   10662.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  74              Cycle          M                   12.0000        162470   10079.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  75              Cycle          M                   12.0000        167346   10731.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  76              Cycle          M                   12.0000        174962   11270.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  77              Cycle          M                   12.0000        174547   11901.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  78              Cycle          M                   12.0000        182479   12031.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  79              Cycle          M                   12.0000        185139   12497.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  8               Cycle          M                   15.0000         80450    2303.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  80              Cycle          M                   12.0000        180534   12007.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  81              Cycle          M                   12.0000        181068   12151.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  82              Cycle          M                   12.0000        182568   12104.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  83              Cycle          M                   12.0000        180763   12012.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  84              Cycle          M                   12.0000        183927   12495.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  85              Cycle          M                   12.0000        187866   12734.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  86              Cycle          M                   12.0000        188659   12743.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  87              Cycle          M                   12.0000        187724   12766.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  88              Cycle          M                   12.0000        191448   13169.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  89              Cycle          M                   12.0000        196617   13838.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  9               Cycle          M                   15.0000         83865    2463.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  90              Cycle          M                   12.0000        197133   13506.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  91              Cycle          M                   12.0000        188440   12995.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  92              Cycle          M                   12.0000        191681   13082.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  93              Cycle          M                   12.0000        198708   13655.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  94              Cycle          M                   12.0000        210206   14843.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  95              Cycle          M                   12.0000        208594   14673.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  96              Cycle          M                   12.0000        206272   14419.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  97              Cycle          M                   11.0000        206528   14682.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  98              Cycle          M                   12.0000        208096   14673.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  99              Cycle          M                   12.0000        210343   14900.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  AA              Context        M                   12.0000       9512430  546057.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  AC              Context        M                    8.0000       2469767  354407.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  AG              Context        M                   13.0000       4035229  224176.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  AT              Context        M                   12.0000       6475043  391726.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  CA              Context        M                    9.0000       4642502  526885.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  CC              Context        M                   11.0000       2484946  197515.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  CG              Context        M                    1.0000        332167  239820.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  CT              Context        M                   21.0000       5437355   40640.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  GA              Context        M                   10.0000       2986268  289710.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  GC              Context        M                   15.0000       1941049   62843.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  GG              Context        M                   11.0000       2318631  196196.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  GT              Context        M                   13.0000       4201804  213049.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  TA              Context        M                    9.0000       5024909  647272.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  TC              Context        M                   12.0000       3183377  214379.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  TG              Context        M                   11.0000       3671778  268444.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            11  TT              Context        M                   14.0000       7886670  296858.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -1              Cycle          M                   27.0000        375254     679.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -10             Cycle          M                   30.0000        371897     319.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -100            Cycle          M                   27.0000        698185    1488.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -101            Cycle          M                   27.0000        664198    1359.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -102            Cycle          M                   28.0000        611036    1027.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -103            Cycle          M                   27.0000        630990    1126.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -104            Cycle          M                   27.0000        650472    1238.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -105            Cycle          M                   27.0000        653047    1137.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -106            Cycle          M                   27.0000        653911    1245.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -107            Cycle          M                   26.0000        724747    1607.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -108            Cycle          M                   27.0000        699067    1488.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -109            Cycle          M                   27.0000        635985    1135.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -11             Cycle          M                   30.0000        349965     274.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -110            Cycle          M                   27.0000        661705    1276.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -111            Cycle          M                   27.0000        688143    1406.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -112            Cycle          M                   27.0000        684016    1386.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -113            Cycle          M                   27.0000        691085    1343.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -114            Cycle          M                   27.0000        702394    1429.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -115            Cycle          M                   27.0000        688341    1351.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -116            Cycle          M                   27.0000        703032    1441.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -117            Cycle          M                   26.0000        746544    1721.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -118            Cycle          M                   26.0000        749857    1706.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -119            Cycle          M                   26.0000        744593    1660.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -12             Cycle          M                   30.0000        346260     269.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -120            Cycle          M                   26.0000        759501    1784.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -121            Cycle          M                   26.0000        762509    1727.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -122            Cycle          M                   26.0000        765739    1747.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -123            Cycle          M                   27.0000        738390    1606.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -124            Cycle          M                   27.0000        738245    1537.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -125            Cycle          M                   26.0000        774439    1782.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -126            Cycle          M                   26.0000        804879    2001.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -127            Cycle          M                   27.0000        749564    1572.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -128            Cycle          M                   26.0000        756355    1697.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -129            Cycle          M                   26.0000        765400    1730.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -13             Cycle          M                   29.0000        341080     324.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -130            Cycle          M                   26.0000        797123    1914.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -131            Cycle          M                   26.0000        794555    1935.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -132            Cycle          M                   26.0000        830817    2013.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -133            Cycle          M                   26.0000        813848    1941.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -134            Cycle          M                   27.0000        789586    1636.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -135            Cycle          M                   26.0000        838459    2067.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -136            Cycle          M                   26.0000        825702    1863.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -137            Cycle          M                   27.0000        814053    1776.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -138            Cycle          M                   26.0000        857783    2119.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -139            Cycle          M                   26.0000        896052    2427.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -14             Cycle          M                   30.0000        346318     300.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -140            Cycle          M                   26.0000        872381    2297.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -141            Cycle          M                   25.0000        907607    2915.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -142            Cycle          M                   26.0000        899356    2270.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -143            Cycle          M                   26.0000        903812    2286.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -144            Cycle          M                   26.0000        909041    2195.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -145            Cycle          M                   25.0000        914819    2586.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -146            Cycle          M                   26.0000        909893    2344.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -147            Cycle          M                   26.0000        946621    2269.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -148            Cycle          M                   26.0000        930704    2208.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -149            Cycle          M                   26.0000        914152    2127.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -15             Cycle          M                   29.0000        352938     323.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -150            Cycle          M                   26.0000        910174    2253.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -151            Cycle          M                   25.0000       1090450    3723.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -16             Cycle          M                   30.0000        349615     309.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -17             Cycle          M                   29.0000        368986     364.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -18             Cycle          M                   29.0000        359417     340.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -19             Cycle          M                   30.0000        367633     314.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -2              Cycle          M                   30.0000        439136     362.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -20             Cycle          M                   29.0000        395751     378.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -21             Cycle          M                   29.0000        370476     349.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -22             Cycle          M                   29.0000        380712     364.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -23             Cycle          M                   30.0000        415728     386.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -24             Cycle          M                   30.0000        373441     333.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -25             Cycle          M                   30.0000        399662     362.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -26             Cycle          M                   29.0000        388455     393.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -27             Cycle          M                   29.0000        405328     407.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -28             Cycle          M                   29.0000        399365     390.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -29             Cycle          M                   29.0000        399383     407.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -3              Cycle          M                   30.0000        365391     266.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -30             Cycle          M                   29.0000        405001     445.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -31             Cycle          M                   29.0000        421993     406.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -32             Cycle          M                   29.0000        402866     389.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -33             Cycle          M                   29.0000        411022     445.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -34             Cycle          M                   29.0000        422974     413.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -35             Cycle          M                   29.0000        399633     400.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -36             Cycle          M                   29.0000        397183     387.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -37             Cycle          M                   29.0000        411517     460.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -38             Cycle          M                   29.0000        454053     496.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -39             Cycle          M                   29.0000        428404     468.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -4              Cycle          M                   31.0000        410049     265.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -40             Cycle          M                   29.0000        418366     449.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -41             Cycle          M                   29.0000        447289     490.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -42             Cycle          M                   29.0000        444965     506.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -43             Cycle          M                   29.0000        443543     546.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -44             Cycle          M                   28.0000        477316     621.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -45             Cycle          M                   28.0000        460190     596.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -46             Cycle          M                   29.0000        455307     576.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -47             Cycle          M                   29.0000        475812     592.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -48             Cycle          M                   29.0000        450433     533.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -49             Cycle          M                   29.0000        450216     559.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -5              Cycle          M                   30.0000        379494     247.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -50             Cycle          M                   29.0000        464673     562.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -51             Cycle          M                   29.0000        463556     574.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -52             Cycle          M                   29.0000        477988     607.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -53             Cycle          M                   29.0000        469916     564.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -54             Cycle          M                   29.0000        451423     557.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -55             Cycle          M                   29.0000        459844     562.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -56             Cycle          M                   28.0000        467935     644.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -57             Cycle          M                   28.0000        500255     668.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -58             Cycle          M                   29.0000        491173     611.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -59             Cycle          M                   28.0000        489828     633.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -6              Cycle          M                   30.0000        359584     273.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -60             Cycle          M                   28.0000        486408     638.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -61             Cycle          M                   28.0000        500478     666.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -62             Cycle          M                   28.0000        495938     683.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -63             Cycle          M                   28.0000        499490     696.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -64             Cycle          M                   28.0000        509221     701.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -65             Cycle          M                   28.0000        518531     712.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -66             Cycle          M                   28.0000        518438     743.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -67             Cycle          M                   28.0000        526316     820.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -68             Cycle          M                   28.0000        539173     782.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -69             Cycle          M                   28.0000        533440     774.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -7              Cycle          M                   30.0000        351540     314.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -70             Cycle          M                   28.0000        549110     836.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -71             Cycle          M                   28.0000        572831     924.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -72             Cycle          M                   28.0000        546067     817.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -73             Cycle          M                   28.0000        545296     829.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -74             Cycle          M                   28.0000        550458     825.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -75             Cycle          M                   28.0000        538596     789.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -76             Cycle          M                   28.0000        537648     759.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -77             Cycle          M                   28.0000        544278     799.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -78             Cycle          M                   28.0000        580064     927.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -79             Cycle          M                   27.0000        592566    1051.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -8              Cycle          M                   30.0000        362101     299.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -80             Cycle          M                   28.0000        562347     931.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -81             Cycle          M                   28.0000        552821     897.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -82             Cycle          M                   28.0000        548197     862.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -83             Cycle          M                   28.0000        568486     915.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -84             Cycle          M                   28.0000        561274     853.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -85             Cycle          M                   28.0000        566561     945.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -86             Cycle          M                   28.0000        576085     962.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -87             Cycle          M                   28.0000        571188     889.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -88             Cycle          M                   27.0000        608226    1098.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -89             Cycle          M                   27.0000        597538    1049.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -9              Cycle          M                   30.0000        362623     260.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -90             Cycle          M                   27.0000        635689    1212.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -91             Cycle          M                   27.0000        626527    1194.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -92             Cycle          M                   28.0000        609892    1006.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -93             Cycle          M                   27.0000        633941    1165.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -94             Cycle          M                   27.0000        623164    1160.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -95             Cycle          M                   27.0000        627810    1133.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -96             Cycle          M                   27.0000        621242    1141.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -97             Cycle          M                   28.0000        599900    1003.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -98             Cycle          M                   27.0000        626416    1109.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  -99             Cycle          M                   27.0000        660865    1315.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  1               Cycle          M                   29.0000        242043     254.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  10              Cycle          M                   30.0000        264334     154.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  100             Cycle          M                   28.0000        474131     611.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  101             Cycle          M                   29.0000        467346     550.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  102             Cycle          M                   27.0000        487885     940.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  103             Cycle          M                   28.0000        509432     676.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  104             Cycle          M                   29.0000        501309     630.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  105             Cycle          M                   29.0000        516547     666.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  106             Cycle          M                   29.0000        513446     658.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  107             Cycle          M                   29.0000        481048     590.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  108             Cycle          M                   28.0000        500248     666.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  109             Cycle          M                   28.0000        556738     829.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  11              Cycle          M                   30.0000        269107     167.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  110             Cycle          M                   28.0000        550773     772.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  111             Cycle          M                   28.0000        538544     749.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  112             Cycle          M                   28.0000        517121     676.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  113             Cycle          M                   28.0000        530392     728.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  114             Cycle          M                   28.0000        547833     771.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  115             Cycle          M                   28.0000        572005     836.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  116             Cycle          M                   28.0000        580705     853.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  117             Cycle          M                   28.0000        579072     881.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  118             Cycle          M                   28.0000        548340     776.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  119             Cycle          M                   28.0000        576464     810.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  12              Cycle          M                   30.0000        264503     156.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  120             Cycle          M                   28.0000        566081     828.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  121             Cycle          M                   28.0000        549005     802.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  122             Cycle          M                   28.0000        564281     787.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  123             Cycle          M                   28.0000        568401     822.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  124             Cycle          M                   28.0000        590602     848.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  125             Cycle          M                   28.0000        587117     927.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  126             Cycle          M                   28.0000        585420     867.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  127             Cycle          M                   28.0000        605182     937.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  128             Cycle          M                   28.0000        575928     836.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  129             Cycle          M                   28.0000        575216     808.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  13              Cycle          M                   30.0000        282532     178.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  130             Cycle          M                   28.0000        597844     869.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  131             Cycle          M                   28.0000        589424     857.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  132             Cycle          M                   28.0000        599785     826.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  133             Cycle          M                   28.0000        613921     885.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  134             Cycle          M                   28.0000        617905     936.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  135             Cycle          M                   28.0000        600526     814.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  136             Cycle          M                   28.0000        610872     924.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  137             Cycle          M                   28.0000        603184     806.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  138             Cycle          M                   28.0000        609844     821.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  139             Cycle          M                   28.0000        646598     944.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  14              Cycle          M                   30.0000        276510     155.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  140             Cycle          M                   28.0000        630162     940.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  141             Cycle          M                   28.0000        600583     798.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  142             Cycle          M                   28.0000        653758     915.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  143             Cycle          M                   28.0000        671309    1031.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  144             Cycle          M                   28.0000        664640     935.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  145             Cycle          M                   29.0000        668629     872.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  146             Cycle          M                   29.0000        656636     860.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  147             Cycle          M                   29.0000        660441     814.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  148             Cycle          M                   29.0000        686101     877.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  149             Cycle          M                   28.0000        670495     893.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  15              Cycle          M                   30.0000        287373     175.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  150             Cycle          M                   28.0000        701907    1030.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  151             Cycle          M                   27.0000        879376    1871.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  16              Cycle          M                   30.0000        281640     163.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  17              Cycle          M                   30.0000        282777     177.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  18              Cycle          M                   31.0000        286816     146.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  19              Cycle          M                   30.0000        285685     172.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  2               Cycle          M                   29.0000        254402     237.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  20              Cycle          M                   30.0000        290486     180.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  21              Cycle          M                   30.0000        284418     159.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  22              Cycle          M                   30.0000        293724     194.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  23              Cycle          M                   30.0000        294920     169.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  24              Cycle          M                   30.0000        305976     181.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  25              Cycle          M                   28.0000        301138     391.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  26              Cycle          M                   30.0000        313415     193.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  27              Cycle          M                   30.0000        309944     201.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  28              Cycle          M                   30.0000        310917     228.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  29              Cycle          M                   30.0000        316630     206.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  3               Cycle          M                   29.0000        242846     194.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  30              Cycle          M                   31.0000        324159     186.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  31              Cycle          M                   30.0000        315023     187.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  32              Cycle          M                   30.0000        328638     255.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  33              Cycle          M                   30.0000        325652     221.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  34              Cycle          M                   30.0000        319155     214.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  35              Cycle          M                   30.0000        321625     212.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  36              Cycle          M                   30.0000        330109     227.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  37              Cycle          M                   30.0000        332922     227.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  38              Cycle          M                   29.0000        332254     350.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  39              Cycle          M                   30.0000        338044     250.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  4               Cycle          M                   28.0000        256966     323.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  40              Cycle          M                   30.0000        337201     237.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  41              Cycle          M                   30.0000        345327     283.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  42              Cycle          M                   30.0000        341170     284.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  43              Cycle          M                   30.0000        335862     216.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  44              Cycle          M                   30.0000        337250     264.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  45              Cycle          M                   30.0000        338558     243.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  46              Cycle          M                   30.0000        344545     260.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  47              Cycle          M                   30.0000        353519     249.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  48              Cycle          M                   30.0000        360410     300.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  49              Cycle          M                   30.0000        356989     284.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  5               Cycle          M                   30.0000        237372     151.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  50              Cycle          M                   30.0000        350858     307.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  51              Cycle          M                   30.0000        352898     290.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  52              Cycle          M                   29.0000        369181     346.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  53              Cycle          M                   27.0000        370768     677.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  54              Cycle          M                   30.0000        370049     281.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  55              Cycle          M                   29.0000        384126     358.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  56              Cycle          M                   30.0000        378170     330.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  57              Cycle          M                   30.0000        396045     325.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  58              Cycle          M                   30.0000        382701     323.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  59              Cycle          M                   30.0000        382994     346.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  6               Cycle          M                   30.0000        254358     194.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  60              Cycle          M                   30.0000        372770     317.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  61              Cycle          M                   30.0000        381445     303.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  62              Cycle          M                   29.0000        395387     381.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  63              Cycle          M                   29.0000        390022     360.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  64              Cycle          M                   30.0000        395151     356.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  65              Cycle          M                   29.0000        401319     414.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  66              Cycle          M                   30.0000        402272     367.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  67              Cycle          M                   30.0000        392164     342.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  68              Cycle          M                   30.0000        392904     341.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  69              Cycle          M                   29.0000        396446     374.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  7               Cycle          M                   30.0000        257304     183.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  70              Cycle          M                   29.0000        415169     439.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  71              Cycle          M                   29.0000        405509     399.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  72              Cycle          M                   29.0000        414838     435.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  73              Cycle          M                   30.0000        409565     381.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  74              Cycle          M                   29.0000        400794     373.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  75              Cycle          M                   30.0000        409580     377.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  76              Cycle          M                   29.0000        424214     453.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  77              Cycle          M                   27.0000        423976     923.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  78              Cycle          M                   29.0000        439683     460.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  79              Cycle          M                   29.0000        442986     464.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  8               Cycle          M                   30.0000        252512     147.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  80              Cycle          M                   29.0000        434702     463.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  81              Cycle          M                   29.0000        434669     446.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  82              Cycle          M                   29.0000        436873     473.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  83              Cycle          M                   29.0000        434170     453.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  84              Cycle          M                   29.0000        439110     420.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  85              Cycle          M                   29.0000        447111     512.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  86              Cycle          M                   29.0000        447678     481.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  87              Cycle          M                   29.0000        445081     487.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  88              Cycle          M                   29.0000        451796     515.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  89              Cycle          M                   27.0000        458365     892.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  9               Cycle          M                   30.0000        265837     171.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  90              Cycle          M                   29.0000        462531     506.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  91              Cycle          M                   29.0000        444673     482.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  92              Cycle          M                   29.0000        450681     515.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  93              Cycle          M                   29.0000        465965     509.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  94              Cycle          M                   29.0000        485155     620.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  95              Cycle          M                   29.0000        479764     600.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  96              Cycle          M                   29.0000        476305     597.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  97              Cycle          M                   29.0000        476506     557.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  98              Cycle          M                   29.0000        478877     605.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  99              Cycle          M                   28.0000        484934     632.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  AA              Context        M                   29.0000      24433789   29661.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  AC              Context        M                   24.0000       5002401   19763.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  AG              Context        M                   28.0000       8562848   12967.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  AT              Context        M                   30.0000      13555552   12045.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  CA              Context        M                   26.0000      11331075   28614.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  CC              Context        M                   27.0000       6051334   12798.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  CG              Context        M                   12.0000        188563   11301.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  CT              Context        M                   37.0000      11802385    2165.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  GA              Context        M                   29.0000       9050193   12251.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  GC              Context        M                   31.0000       4786746    3834.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  GG              Context        M                   27.0000       5447518   11340.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  GT              Context        M                   31.0000       9110619    7195.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  TA              Context        M                   26.0000      11467051   30008.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  TC              Context        M                   27.0000       6703015   12809.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  TG              Context        M                   27.0000       7871796   14575.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            25  TT              Context        M                   32.0000      17958699   10699.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -1              Cycle          M                   32.0000      12659650    8260.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -10             Cycle          M                   37.0000      12785026    2282.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -100            Cycle          M                   38.0000      12214551    1979.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -101            Cycle          M                   38.0000      12271712    1837.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -102            Cycle          M                   38.0000      12359671    1865.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -103            Cycle          M                   38.0000      12322133    1846.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -104            Cycle          M                   38.0000      12289967    1864.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -105            Cycle          M                   38.0000      12284322    1874.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -106            Cycle          M                   38.0000      12285068    1863.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -107            Cycle          M                   38.0000      12165250    1916.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -108            Cycle          M                   38.0000      12201900    1920.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -109            Cycle          M                   38.0000      12309875    1836.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -11             Cycle          M                   38.0000      12820961    2215.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -110            Cycle          M                   38.0000      12263034    1908.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -111            Cycle          M                   38.0000      12215828    1929.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -112            Cycle          M                   38.0000      12221456    1990.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -113            Cycle          M                   38.0000      12208750    1870.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -114            Cycle          M                   38.0000      12193810    2007.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -115            Cycle          M                   38.0000      12212680    1937.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -116            Cycle          M                   38.0000      12189596    1810.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -117            Cycle          M                   38.0000      12108123    1896.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -118            Cycle          M                   38.0000      12098992    1929.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -119            Cycle          M                   38.0000      12110518    1872.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -12             Cycle          M                   38.0000      12832305    2186.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -120            Cycle          M                   38.0000      12081323    1955.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -121            Cycle          M                   38.0000      12074662    1858.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -122            Cycle          M                   38.0000      12066308    1883.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -123            Cycle          M                   38.0000      12109693    1827.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -124            Cycle          M                   38.0000      12107254    1956.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -125            Cycle          M                   38.0000      12043381    1826.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -126            Cycle          M                   38.0000      11987857    1964.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -127            Cycle          M                   38.0000      12076438    1825.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -128            Cycle          M                   38.0000      12060809    1807.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -129            Cycle          M                   38.0000      12043264    1892.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -13             Cycle          M                   38.0000      12847221    2277.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -130            Cycle          M                   38.0000      11979468    2001.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -131            Cycle          M                   38.0000      11991505    1968.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -132            Cycle          M                   38.0000      11921966    1873.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -133            Cycle          M                   38.0000      11952369    1816.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -134            Cycle          M                   38.0000      11999059    1808.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -135            Cycle          M                   38.0000      11908033    1963.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -136            Cycle          M                   38.0000      11922626    1829.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -137            Cycle          M                   38.0000      11945230    1770.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -138            Cycle          M                   38.0000      11859605    1831.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -139            Cycle          M                   38.0000      11778307    2035.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -14             Cycle          M                   38.0000      12832439    2244.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -140            Cycle          M                   38.0000      11814424    1967.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -141            Cycle          M                   37.0000      11738942    2244.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -142            Cycle          M                   38.0000      11758913    1954.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -143            Cycle          M                   38.0000      11754241    1838.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -144            Cycle          M                   38.0000      11738824    1814.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -145            Cycle          M                   37.0000      11714999    2084.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -146            Cycle          M                   38.0000      11721474    1933.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -147            Cycle          M                   38.0000      11643415    1836.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -148            Cycle          M                   38.0000      11665872    1759.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -149            Cycle          M                   38.0000      11689067    1801.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -15             Cycle          M                   38.0000      12825101    2143.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -150            Cycle          M                   38.0000      11682640    1951.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -151            Cycle          M                   36.0000      11354101    2678.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -16             Cycle          M                   37.0000      12824892    2452.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -17             Cycle          M                   38.0000      12791428    2031.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -18             Cycle          M                   38.0000      12808210    2046.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -19             Cycle          M                   38.0000      12796141    2032.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -2              Cycle          M                   34.0000      12728747    5090.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -20             Cycle          M                   38.0000      12761172    1992.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -21             Cycle          M                   37.0000      12796305    2302.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -22             Cycle          M                   38.0000      12772706    2139.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -23             Cycle          M                   38.0000      12723946    2046.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -24             Cycle          M                   38.0000      12789040    2016.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -25             Cycle          M                   38.0000      12752190    1948.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -26             Cycle          M                   38.0000      12767528    2038.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -27             Cycle          M                   38.0000      12743803    2019.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -28             Cycle          M                   38.0000      12757492    2001.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -29             Cycle          M                   38.0000      12755557    1873.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -3              Cycle          M                   35.0000      12820856    4032.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -30             Cycle          M                   38.0000      12744193    1962.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -31             Cycle          M                   38.0000      12715850    1984.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -32             Cycle          M                   38.0000      12746442    1965.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -33             Cycle          M                   38.0000      12733082    2121.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -34             Cycle          M                   38.0000      12720040    2051.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -35             Cycle          M                   37.0000      12751000    2298.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -36             Cycle          M                   38.0000      12755135    1926.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -37             Cycle          M                   38.0000      12734981    2039.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -38             Cycle          M                   38.0000      12660513    1959.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -39             Cycle          M                   38.0000      12701336    1935.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -4              Cycle          M                   35.0000      12722765    3694.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -40             Cycle          M                   38.0000      12717558    2075.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -41             Cycle          M                   38.0000      12676413    1971.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -42             Cycle          M                   38.0000      12680125    2059.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -43             Cycle          M                   38.0000      12676973    2045.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -44             Cycle          M                   38.0000      12628086    1894.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -45             Cycle          M                   37.0000      12648524    2744.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -46             Cycle          M                   38.0000      12654851    1855.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -47             Cycle          M                   38.0000      12630160    2072.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -48             Cycle          M                   38.0000      12667894    1918.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -49             Cycle          M                   38.0000      12664988    2097.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -5              Cycle          M                   36.0000      12739839    2940.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -50             Cycle          M                   38.0000      12641209    1986.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -51             Cycle          M                   38.0000      12644278    1914.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -52             Cycle          M                   38.0000      12622089    1910.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -53             Cycle          M                   38.0000      12631086    2149.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -54             Cycle          M                   38.0000      12660390    1865.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -55             Cycle          M                   38.0000      12644500    1910.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -56             Cycle          M                   38.0000      12633579    1789.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -57             Cycle          M                   38.0000      12585999    1827.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -58             Cycle          M                   38.0000      12603485    2006.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -59             Cycle          M                   38.0000      12601525    1852.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -6              Cycle          M                   36.0000      12759258    2931.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -60             Cycle          M                   38.0000      12600385    1815.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -61             Cycle          M                   38.0000      12577816    1874.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -62             Cycle          M                   38.0000      12587458    1917.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -63             Cycle          M                   38.0000      12581020    1912.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -64             Cycle          M                   38.0000      12565943    1823.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -65             Cycle          M                   38.0000      12551701    2044.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -66             Cycle          M                   38.0000      12553572    2057.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -67             Cycle          M                   38.0000      12539031    1929.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -68             Cycle          M                   38.0000      12514098    1754.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -69             Cycle          M                   38.0000      12522593    1811.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -7              Cycle          M                   36.0000      12785438    3063.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -70             Cycle          M                   38.0000      12494947    1873.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -71             Cycle          M                   38.0000      12455731    1924.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -72             Cycle          M                   38.0000      12497521    1791.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -73             Cycle          M                   38.0000      12494682    1992.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -74             Cycle          M                   38.0000      12491303    1856.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -75             Cycle          M                   38.0000      12507519    1829.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -76             Cycle          M                   38.0000      12511630    1864.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -77             Cycle          M                   38.0000      12496067    1957.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -78             Cycle          M                   38.0000      12442241    1868.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -79             Cycle          M                   38.0000      12412424    1910.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -8              Cycle          M                   37.0000      12782690    2448.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -80             Cycle          M                   38.0000      12465914    1893.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -81             Cycle          M                   38.0000      12481687    1866.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -82             Cycle          M                   38.0000      12486056    1850.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -83             Cycle          M                   38.0000      12452780    1853.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -84             Cycle          M                   38.0000      12460574    1872.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -85             Cycle          M                   38.0000      12452051    1937.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -86             Cycle          M                   38.0000      12437017    1917.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -87             Cycle          M                   38.0000      12443803    2074.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -88             Cycle          M                   38.0000      12382987    1921.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -89             Cycle          M                   38.0000      12399595    1913.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -9              Cycle          M                   37.0000      12789962    2357.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -90             Cycle          M                   38.0000      12333609    2001.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -91             Cycle          M                   38.0000      12352983    1886.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -92             Cycle          M                   38.0000      12379031    1821.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -93             Cycle          M                   38.0000      12336155    1962.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -94             Cycle          M                   38.0000      12345457    1880.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -95             Cycle          M                   38.0000      12338883    1855.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -96             Cycle          M                   38.0000      12347117    1914.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -97             Cycle          M                   38.0000      12380419    1990.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -98             Cycle          M                   38.0000      12337956    1853.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  -99             Cycle          M                   38.0000      12281224    1959.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  1               Cycle          M                   33.0000      12831885    6154.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  10              Cycle          M                   38.0000      12944452    2196.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  100             Cycle          M                   39.0000      12582472    1717.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  101             Cycle          M                   39.0000      12594545    1700.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  102             Cycle          M                   37.0000      12564636    2772.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  103             Cycle          M                   38.0000      12529348    1762.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  104             Cycle          M                   39.0000      12538031    1743.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  105             Cycle          M                   38.0000      12519556    1755.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  106             Cycle          M                   39.0000      12520536    1709.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  107             Cycle          M                   38.0000      12569167    1786.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  108             Cycle          M                   38.0000      12535812    1763.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  109             Cycle          M                   38.0000      12447626    1810.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  11              Cycle          M                   38.0000      12943503    2098.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  110             Cycle          M                   38.0000      12454041    1755.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  111             Cycle          M                   39.0000      12473864    1671.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  112             Cycle          M                   38.0000      12508357    1832.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  113             Cycle          M                   39.0000      12485524    1663.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  114             Cycle          M                   38.0000      12455403    1762.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  115             Cycle          M                   38.0000      12418889    1801.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  116             Cycle          M                   38.0000      12403517    1773.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  117             Cycle          M                   39.0000      12400334    1663.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  118             Cycle          M                   39.0000      12448587    1672.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  119             Cycle          M                   38.0000      12403338    1742.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  12              Cycle          M                   38.0000      12952975    2126.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  120             Cycle          M                   38.0000      12418768    1795.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  121             Cycle          M                   39.0000      12443563    1596.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  122             Cycle          M                   38.0000      12417406    1733.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  123             Cycle          M                   39.0000      12414403    1666.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  124             Cycle          M                   38.0000      12373034    1772.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  125             Cycle          M                   39.0000      12377803    1678.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  126             Cycle          M                   39.0000      12374169    1674.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  127             Cycle          M                   39.0000      12337419    1659.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  128             Cycle          M                   39.0000      12381893    1660.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  129             Cycle          M                   39.0000      12386306    1634.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  13              Cycle          M                   38.0000      12938085    2256.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  130             Cycle          M                   38.0000      12345270    1736.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  131             Cycle          M                   38.0000      12361392    1734.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  132             Cycle          M                   39.0000      12340870    1605.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  133             Cycle          M                   39.0000      12317233    1647.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  134             Cycle          M                   39.0000      12305776    1658.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  135             Cycle          M                   39.0000      12334587    1528.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  136             Cycle          M                   39.0000      12318085    1633.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  137             Cycle          M                   39.0000      12326659    1614.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  138             Cycle          M                   39.0000      12315575    1535.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  139             Cycle          M                   39.0000      12247857    1533.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  14              Cycle          M                   38.0000      12935781    2127.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  140             Cycle          M                   39.0000      12266966    1598.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  141             Cycle          M                   39.0000      12315969    1487.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  142             Cycle          M                   39.0000      12225568    1535.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  143             Cycle          M                   39.0000      12192550    1543.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  144             Cycle          M                   39.0000      12201982    1526.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  145             Cycle          M                   39.0000      12191332    1550.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  146             Cycle          M                   39.0000      12207098    1514.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  147             Cycle          M                   40.0000      12195162    1309.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  148             Cycle          M                   39.0000      12144877    1453.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  149             Cycle          M                   39.0000      12161502    1404.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  15              Cycle          M                   38.0000      12930550    2123.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  150             Cycle          M                   39.0000      12099251    1567.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  151             Cycle          M                   37.0000      11813745    2165.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  16              Cycle          M                   37.0000      12930704    2372.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  17              Cycle          M                   38.0000      12925414    1890.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  18              Cycle          M                   38.0000      12923285    1911.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  19              Cycle          M                   38.0000      12927183    1989.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  2               Cycle          M                   34.0000      12963443    4982.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  20              Cycle          M                   38.0000      12917810    1989.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  21              Cycle          M                   38.0000      12922815    2184.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  22              Cycle          M                   38.0000      12906209    2131.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  23              Cycle          M                   38.0000      12907922    1920.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  24              Cycle          M                   38.0000      12891870    1938.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  25              Cycle          M                   38.0000      12899096    2267.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  26              Cycle          M                   38.0000      12875494    1976.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  27              Cycle          M                   38.0000      12880572    1957.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  28              Cycle          M                   38.0000      12884412    1821.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  29              Cycle          M                   38.0000      12877641    1858.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  3               Cycle          M                   36.0000      12986762    3261.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  30              Cycle          M                   38.0000      12860104    1935.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  31              Cycle          M                   38.0000      12868584    1886.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  32              Cycle          M                   38.0000      12852054    1881.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  33              Cycle          M                   38.0000      12858480    1923.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  34              Cycle          M                   38.0000      12868746    1985.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  35              Cycle          M                   38.0000      12865418    2146.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  36              Cycle          M                   38.0000      12852202    1839.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  37              Cycle          M                   38.0000      12847190    1988.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  38              Cycle          M                   36.0000      12841244    3288.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  39              Cycle          M                   38.0000      12834785    1791.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  4               Cycle          M                   35.0000      12915518    4340.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  40              Cycle          M                   38.0000      12835572    2060.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  41              Cycle          M                   38.0000      12828150    1894.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  42              Cycle          M                   38.0000      12834478    1956.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  43              Cycle          M                   38.0000      12833911    1923.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  44              Cycle          M                   38.0000      12827981    1956.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  45              Cycle          M                   37.0000      12822263    2773.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  46              Cycle          M                   39.0000      12820244    1761.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  47              Cycle          M                   38.0000      12810974    2012.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  48              Cycle          M                   38.0000      12802702    1853.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  49              Cycle          M                   38.0000      12808838    1946.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  5               Cycle          M                   38.0000      12939332    2068.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  50              Cycle          M                   39.0000      12815155    1759.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  51              Cycle          M                   38.0000      12812485    1796.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  52              Cycle          M                   39.0000      12786788    1733.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  53              Cycle          M                   36.0000      12783510    3156.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  54              Cycle          M                   39.0000      12777129    1750.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  55              Cycle          M                   38.0000      12754557    1811.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  56              Cycle          M                   39.0000      12768237    1738.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  57              Cycle          M                   39.0000      12741988    1736.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  58              Cycle          M                   38.0000      12768101    1910.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  59              Cycle          M                   39.0000      12764116    1681.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  6               Cycle          M                   37.0000      12917732    2485.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  60              Cycle          M                   39.0000      12774267    1748.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  61              Cycle          M                   39.0000      12760989    1708.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  62              Cycle          M                   38.0000      12740725    1839.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  63              Cycle          M                   38.0000      12743634    1873.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  64              Cycle          M                   39.0000      12739537    1626.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  65              Cycle          M                   38.0000      12731645    1910.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  66              Cycle          M                   38.0000      12725478    1926.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  67              Cycle          M                   38.0000      12739754    1884.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  68              Cycle          M                   39.0000      12736903    1656.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  69              Cycle          M                   39.0000      12730459    1697.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  7               Cycle          M                   36.0000      12925281    2944.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  70              Cycle          M                   39.0000      12702305    1728.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  71              Cycle          M                   39.0000      12716588    1705.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  72              Cycle          M                   39.0000      12698193    1693.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  73              Cycle          M                   39.0000      12706185    1750.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  74              Cycle          M                   38.0000      12721305    1781.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  75              Cycle          M                   39.0000      12706789    1766.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  76              Cycle          M                   39.0000      12678343    1722.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  77              Cycle          M                   36.0000      12685620    2917.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  78              Cycle          M                   38.0000      12661725    1766.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  79              Cycle          M                   38.0000      12653073    1825.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  8               Cycle          M                   38.0000      12943288    2287.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  80              Cycle          M                   38.0000      12666803    1776.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  81              Cycle          M                   38.0000      12667045    1852.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  82              Cycle          M                   38.0000      12662163    1787.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  83              Cycle          M                   39.0000      12665628    1674.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  84              Cycle          M                   38.0000      12658002    1793.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  85              Cycle          M                   39.0000      12644631    1759.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  86              Cycle          M                   38.0000      12641212    1845.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  87              Cycle          M                   38.0000      12641481    1958.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  88              Cycle          M                   38.0000      12635275    1778.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  89              Cycle          M                   36.0000      12623722    3119.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  9               Cycle          M                   37.0000      12934032    2312.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  90              Cycle          M                   38.0000      12613931    1792.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  91              Cycle          M                   39.0000      12642739    1653.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  92              Cycle          M                   39.0000      12629081    1715.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  93              Cycle          M                   38.0000      12610232    1778.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  94              Cycle          M                   38.0000      12571758    1765.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  95              Cycle          M                   39.0000      12580824    1709.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  96              Cycle          M                   38.0000      12582440    1770.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  97              Cycle          M                   38.0000      12586479    1985.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  98              Cycle          M                   39.0000      12577351    1700.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  99              Cycle          M                   39.0000      12570746    1704.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  AA              Context        M                   39.0000     396626012   53268.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  AC              Context        M                   36.0000     165974367   46160.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  AG              Context        M                   38.0000     252408994   42334.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  AT              Context        M                   38.0000     286714988   49191.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  CA              Context        M                   40.0000     276728547   29165.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  CC              Context        M                   37.0000     175980238   33645.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  CG              Context        M                   23.0000       4800794   24679.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  CT              Context        M                   44.0000     279723232   12327.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  GA              Context        M                   40.0000     244038859   24272.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  GC              Context        M                   39.0000     143619163   18379.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  GG              Context        M                   39.0000     175843844   23355.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  GT              Context        M                   37.0000     198269553   40155.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  TA              Context        M                   37.0000     261513555   51145.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  TC              Context        M                   37.0000     212453605   41737.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  TG              Context        M                   37.0000     267977047   52471.00
+A00739:176:H3NYTDSXY:3:AAGTCCAA+TATGAGTA            37  TT              Context        M                   39.0000     414600102   48936.00
+
