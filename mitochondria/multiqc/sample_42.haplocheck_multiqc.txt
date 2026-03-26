@@ -1,0 +1,2 @@
+"Sample"	"Contamination Status"	"Contamination Level"	"Distance"	"Sample Coverage"
+"Sample_42"	"YES"	"0.002"	"14"	"836"
