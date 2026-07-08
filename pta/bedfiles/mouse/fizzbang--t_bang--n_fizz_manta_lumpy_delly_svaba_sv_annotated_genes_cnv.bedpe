@@ -1,0 +1,3 @@
+#chr1	start1	end1	chr2	start2	end2	type	score	strand1	strand2	evidence	tools	tumor--normal	info	cnv_changepoint_1	cnv_changepoint_2
+10	10197378	10197379	10	10288934	10288935	DUP	.	-	+	[manta_SR=8,manta_PE=3],[lumpy_SR=7,lumpy_PE=3],[delly_SR=7,delly_PE=3],[svaba_SR=6,svaba_PE=2]	manta,lumpy,delly,svaba	fizzbang--t_bang--fizzbang--n_fizz	known=;DisruptL=;DisruptR=Adgb;ClosestL=Adgb;ClosestR=;Intronic=		
+10	6546032	6546033	18	7236376	7236377	TRA	.	-	+	[manta_SR=6,manta_PE=3],[lumpy_SR=4,lumpy_PE=3],[svaba_SR=5,svaba_PE=2]	manta,lumpy,svaba	fizzbang--t_bang--fizzbang--n_fizz	known=;DisruptL=;DisruptR=Odad2;ClosestL=;ClosestR=;Intronic=		
